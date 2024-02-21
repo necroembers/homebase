@@ -69,7 +69,7 @@ hr.dash {
 
 .title {
 	color: #7ef4de;
-	font-size: 1.24em;
+	font-size: 1.42em;
 	font-weight: 500;
 	text-align: center;
 }
@@ -110,20 +110,69 @@ hr.dash {
 }
 .gallery img {
 	display: block;
-	padding: 5px;
+	padding: 6px;
 	width: 100%;
 	height: auto;
-	max-width: 240px;
+	max-width: 224px;
 	text-align: center;
 }
 .gallery img:hover {
 	filter: brightness(1.13) hue-rotate(-24deg);
 }
 .gallery p {
-	color: #7ef4de;
+	color: #aaffaa;
 	font-family: 'Roboto Mono', monospace, courier;
 	font-size: 1.2em;
 	text-align: center;
+}
+.gallery p:hover {
+	color: #fff;
+}
+
+.portrait {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: 0 auto;
+	padding: 18px 6px;
+	width: 90px;
+}
+#about {
+	/* color: #ddeedd; */
+	font-size: 1em;
+}
+
+/* back to top button */
+.top {
+	position: sticky;
+
+	--offset: 50px; 
+	margin-top: calc(100vh + var(--offset));
+	margin-right: 10px;
+	bottom: 20px;
+	place-self: end;
+
+	/* visual styling */
+	color: #dfd;
+	text-decoration: none;
+	padding: 8px 15px;
+	font-family: monospace;
+	background: rgba(42,42,42,0.69);
+	border-radius: 100px;
+	white-space: nowrap;
+}
+.top a:hover {
+	color: #9bf;
+}
+.top a:visited {
+	color: #dfd;
+}
+
+.teepublic img {
+	max-width: 36px;
+}
+.teepublic img:hover {
+	filter: blur(.69px) invert(13%);
 }
 
 footer {
@@ -143,9 +192,9 @@ footer a:hover {
 .footerSocial img {
 	display: inline;
 	max-width: 24px;
-	margin: 6px;
-	padding: 6px;
+	margin: 3px;
+	padding: 6px 3px;
 }
 .footerSocial img:hover {
-	filter: blur(.66px) invert(13%);
+	filter: blur(.69px) invert(13%);
 }
