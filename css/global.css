@@ -42,7 +42,6 @@ body a:visited {
 header {
 	font-family: ‘Roboto Mono’, ‘Roboto’, monospace;
 	margin: 0 auto;
-	/* padding: 6px; */
 	text-align: center;
 }
 header img {
@@ -60,7 +59,7 @@ header img {
 
 hr.dash {
 	border: 0;
-	border-bottom: 1px dashed #66cdef;
+	border-bottom: 1px dashed #66ddff;
 	height: 0;
 	margin: 0 auto;
 	text-align: center;
@@ -68,7 +67,7 @@ hr.dash {
 }
 
 .title {
-	color: #7ef4de;
+	color: #66ddff;
 	font-size: 1.42em;
 	font-weight: 500;
 	text-align: center;
@@ -93,12 +92,24 @@ hr.dash {
 		-moz-column-count: 2;
 		column-count: 2;
 	}
+	.title {
+		color: #66ddff;
+		font-size: 1.24em;
+		font-weight: 400;
+		text-align: center;
+	}
 }
 @media only screen and (min-width : 481px) and (max-width: 920px) {
 	.gallery {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 		column-count: 2;
+	}
+	.title {
+		color: #66ddff;
+		font-size: 1.24em;
+		font-weight: 400;
+		text-align: center;
 	}
 }
 @media only screen and (min-width : 200px) and (max-width: 480px) {
@@ -107,20 +118,26 @@ hr.dash {
 		-moz-column-count: 1;
 		column-count: 1;
 	}
+	.title {
+		color: #66ddff;
+		font-size: 1.13em;
+		font-weight: 400;
+		text-align: center;
+	}
 }
 .gallery img {
 	display: block;
 	padding: 6px;
 	width: 100%;
 	height: auto;
-	max-width: 224px;
+	max-width: 200px;
 	text-align: center;
 }
 .gallery img:hover {
 	filter: brightness(1.13) hue-rotate(-24deg);
 }
 .gallery p {
-	color: #aaffaa;
+	color: #66ddff;
 	font-family: 'Roboto Mono', monospace, courier;
 	font-size: 1.2em;
 	text-align: center;
@@ -168,10 +185,10 @@ hr.dash {
 	color: #dfd;
 }
 
-.teepublic img {
+.shop img {
 	max-width: 36px;
 }
-.teepublic img:hover {
+.shop img:hover {
 	filter: blur(.69px) invert(13%);
 }
 
