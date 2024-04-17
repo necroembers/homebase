@@ -1,5 +1,4 @@
 body {
-	background: rgba(28,32,32,1);
 	color: #efefef;
 	font-family: 'Roboto Mono', 'Roboto', monospace, sans-serif;
 	font-size: 12px;
@@ -45,7 +44,6 @@ body a:visited {
 header {
 	background: rgba(20,22,22,1);
 	font-family: ‘Roboto Mono’, ‘Roboto’, monospace;
-	grid-area: header;
 	margin: 0 auto;
 	padding: 6px;
 	text-align: center;
@@ -64,14 +62,14 @@ header img {
 	}
 }
 
-/* main {
+main {
     background: rgba(28,32,32,1);
 	margin: 2px -6px;
 	text-align: center;
-} */
+}
 
 nav {
-	background: rgba(20,22,22,1);
+	/* background: rgba(20,22,22,1); */
 	color: #66ddff;
 	font-size: 14px;
 	font-weight: 600;
@@ -301,7 +299,7 @@ hr.dashF {
 }
 
 footer {
-	/* background: rgb(20,22,22,1); */
+	background: rgba(20,22,22,1);
 	bottom: 0;
 	padding-bottom: 12px;
 }
