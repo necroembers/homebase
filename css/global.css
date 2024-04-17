@@ -74,9 +74,9 @@ main {
 nav {
 	background: rgba(20,22,22,1);
 	color: #66ddff;
-	font-size: 1.2em;
-	font-variant: small-caps;
-	padding: 9px 2px;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 9px 2px 13px 2px;
 	text-align: center;
 }
 
@@ -122,9 +122,9 @@ hr.dashF {
 	text-align: center;
 }
 .bodyText {
-	/* color: #66ddff; */
 	font-size: 13px;
 	font-weight: 500;
+	padding: 2px 13px;
 	text-align: center;
 }
 .bodyText img {
@@ -192,11 +192,8 @@ hr.dashF {
 		-moz-column-count: 2;
 		column-count: 2;
 	}
-	.title {
-		color: #66ddff;
-		font-size: 16px;
-		font-weight: 400;
-		text-align: center;
+	.bodyText {
+		max-width: 90%;
 	}
 }
 @media only screen and (min-width : 481px) and (max-width: 920px) {
@@ -205,11 +202,8 @@ hr.dashF {
 		-moz-column-count: 2;
 		column-count: 2;
 	}
-	.title {
-		color: #66ddff;
-		font-size: 15px;
-		font-weight: 400;
-		text-align: center;
+	.bodyText {
+		max-width: 85%;
 	}
 }
 @media only screen and (min-width : 200px) and (max-width: 480px) {
@@ -218,11 +212,8 @@ hr.dashF {
 		-moz-column-count: 1;
 		column-count: 1;
 	}
-	.title {
-		color: #66ddff;
-		font-size: 14px;
-		font-weight: 400;
-		text-align: center;
+	.bodyText {
+		max-width: 80%;
 	}
 }
 .gallery img {
@@ -295,6 +286,13 @@ hr.dashF {
 	max-width: 36px;
 }
 .shop img:hover {
+	filter: blur(.69px) invert(13%);
+}
+.neonDragon img {
+	max-width: 242px;
+	padding: 2px 6px 13px 6px;
+}
+.neonDragon img:hover {
 	filter: blur(.69px) invert(13%);
 }
 
