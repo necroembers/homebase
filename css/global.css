@@ -79,16 +79,14 @@ nav {
 }
 
 hr.dash {
-	border-top: 0;
-	border-bottom: 1px dashed #696969;
+	border: 1px dashed #33ccde;
 	height: 0;
 	/* margin: 0 auto; */
 	text-align: center;
 	width: 69%;
 }
 hr.dashF {
-	border-top: 0;
-	border-bottom: 1px dashed #696969;
+	border: 1px dashed #a9a9a9;
 	height: 0;
 	margin: 0 -5px;
 	text-align: center;
@@ -101,6 +99,7 @@ hr.dashF {
 	text-align: center;
 }
 .frontBanner img {
+	border-radius: 13px;
 	width: 95%;
 	max-width: 1200px;
 }
