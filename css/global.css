@@ -4,10 +4,6 @@ body {
 	font-family: 'Roboto Mono', 'Roboto', monospace, sans-serif;
 	font-size: 12px;
 	font-weight: 500;
-	/* min-height: 100vh;
-	height: 100%;
-	padding: 0;
-	margin: 2px -6px; */
 	margin: 0 auto;
 	text-align: center;
 }
@@ -52,7 +48,7 @@ header {
 header img {
 	width: 42%;
 	max-width: 420px;
-	padding: 13px 16px;
+	padding: 13px;
 }
 @media only screen and (min-width: 200px) and (max-width: 1024px) {
 	header img {
@@ -74,49 +70,58 @@ nav {
 	color: #66ddff;
 	font-size: 14px;
 	font-weight: 600;
-	padding: 9px 2px 13px 2px;
+	padding: 2px 2px 9px 2px;
 	text-align: center;
 }
 
 hr.dash {
 	border: 1px dashed #33ccde;
 	height: 0;
-	/* margin: 0 auto; */
 	text-align: center;
-	width: 69%;
+	width: 60%;
 }
 hr.dashF {
 	border: 1px dashed #a9a9a9;
 	height: 0;
-	margin: 0 -5px;
+	margin: 0 -4px;
 	text-align: center;
 	width: 100%;
 }
 
 .frontBanner {
 	margin: 0 auto;
-	padding: 13px 6px;
 	text-align: center;
 }
 .frontBanner img {
-	border-radius: 13px;
-	width: 95%;
-	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 2000px;
 }
 .frontBanner img:hover {
 	filter: brightness(1.13) hue-rotate(-13deg);
 }
 .front {
 	color: #66ddff;
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 1.42em;
+	font-weight: 500;
 	margin: 0 auto;
 	padding-top: 13px;
 	text-align: center;
 }
+
+.subNav {
+	background: rgba(20,22,22,1);
+	display: inline-block;
+	margin: 0 auto;
+	font-size: .95em;
+	font-weight: 500;
+	padding: 6px 8px;
+	text-align: center;
+}
+
 .title {
 	color: #66ddff;
-	font-size: 18px;
+	font-size: 1.28em;
 	font-weight: 500;
 	margin: 0 auto;
 	padding-top: 13px;
@@ -124,14 +129,18 @@ hr.dashF {
 }
 
 .bodyText {
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 500;
 	margin: 0 auto;
 	padding: 9px;
 	text-align: center;
 }
 .bodyText img {
-	max-width: 36px;
+	max-width: 42px;
+	padding: 0;
+}
+.bodyText img:hover {
+	filter: blur(.6px) drop-shadow(2px 2px 1px #4af);
 }
 
 .frontGallery {
@@ -181,14 +190,11 @@ hr.dashF {
 
 .gallery {
 	-webkit-column-count: 3;
-	/* -webkit-column-gap: 6px; */
 	-moz-column-count: 3;
-	/* -moz-column-gap: 6px; */
 	column-count: 3;
-	/* column-gap: 6px;  */
 	display: inline-block;
 	position: static;
-	width: 90%;
+	width: 85%;
 }
 .gallery img {
 	padding: 6px 3px;
@@ -248,7 +254,7 @@ hr.dashF {
 	width: 99px;
 }
 .portrait:hover {
-	filter: brightness(1.06) hue-rotate(13deg);
+	filter: hue-rotate(6deg);
 }
 
 .moreInfo {
@@ -289,23 +295,24 @@ hr.dashF {
 	max-width: 36px;
 }
 .shop img:hover {
-	filter: blur(.69px) invert(13%);
+	filter: blur(.6px) drop-shadow(2px 2px 2px #aef);
 }
 .neonDragon img {
 	max-width: 242px;
 	padding: 2px 6px 13px 6px;
 }
 .neonDragon img:hover {
-	filter: blur(.69px) invert(13%);
+	filter: blur(.5px) hue-rotate(-9deg);
 }
 
 footer {
 	background: rgba(20,22,22,1);
 	bottom: 0;
-	padding-bottom: 12px;
+	padding: 6px 6px 12px 6px;
+	margin: 0 auto;
 }
 footer p {
-	font-size: 11px;
+	font-size: .9em;
 	font-weight: 500;
 	margin: 0 auto;
 	text-align: center;
@@ -318,10 +325,9 @@ footer a:hover {
 }
 .footerSocial img {
 	display: inline;
-	max-width: 24px;
-	margin: 0 auto;
-	padding: 12px 3px 9px 3px;
+	max-width: 28px;
+	padding: 2px 2px 6px 2px;
 }
 .footerSocial img:hover {
-	filter: blur(.69px) invert(13%);
+	filter: blur(.6px) drop-shadow(2px 1px 1px #4af);
 }
