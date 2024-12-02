@@ -6,6 +6,7 @@ body {
 	font-weight: 500;
 	margin: 0 auto;
 	text-align: center;
+	width: 99%;
 }
 body h1, h2, h3 , h4, h5, h6 {
 	font: "Roboto Mono", 'Roboto', monospace;
@@ -14,7 +15,6 @@ body h1, h2, h3 , h4, h5, h6 {
 body p {
 	font: 1em "Roboto Mono", 'Roboto', monospace;
 	font-weight: 300;
-	/* margin: 0 auto; */
 	max-width: 950px;
 	text-align: center;
 }
@@ -190,8 +190,11 @@ hr.dashF {
 
 .gallery {
 	-webkit-column-count: 3;
+	-webkit-column-gap: 2px;
 	-moz-column-count: 3;
+	-moz-column-gap: 2px;
 	column-count: 3;
+	column-gap: 2px;
 	display: inline-block;
 	position: static;
 	width: 85%;
