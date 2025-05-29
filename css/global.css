@@ -207,7 +207,7 @@ hr.dashF {
 	text-align: center;
 }
 .gallery img:hover {
-	filter: brightness(1.13) hue-rotate(-13deg);
+	filter: brightness(105%) contrast(105%) drop-shadow(3px 3px 1px rgba(13,13,24,.69));
 }
 .gallery p {
 	color: #66ddff;
