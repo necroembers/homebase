@@ -1,5 +1,5 @@
 body {
-	background: rgba(20,22,22,1);
+	background: rgba(24,20,36,1);
 	color: #efefef;
 	font-family: 'Roboto Mono', 'Roboto', monospace, sans-serif;
 	font-size: 12px;
@@ -110,7 +110,8 @@ hr.dashF {
 }
 
 .subNav {
-	background: rgba(20,22,22,1);
+	background: rgba(13,18,24,1);
+	border-radius: 9px;
 	display: inline-block;
 	margin: 0 auto;
 	font-size: .95em;
@@ -189,25 +190,25 @@ hr.dashF {
 }
 
 .gallery {
-	-webkit-column-count: 3;
-	-webkit-column-gap: 2px;
-	-moz-column-count: 3;
-	-moz-column-gap: 2px;
-	column-count: 3;
-	column-gap: 2px;
+	-webkit-column-count: 4;
+	-webkit-column-gap: 6px;
+	-moz-column-count: 4;
+	-moz-column-gap: 6px;
+	column-count: 4;
+	column-gap: 6px;
 	display: inline-block;
 	position: static;
-	width: 85%;
+	width: 90%;
 }
 .gallery img {
-	padding: 6px 3px;
+	padding: 2px;
 	width: 100%;
 	max-width: 420px;
 	margin: 0 auto;
 	text-align: center;
 }
 .gallery img:hover {
-	filter: brightness(105%) contrast(105%) drop-shadow(3px 3px 1px rgba(13,13,24,.69));
+	filter: brightness(105%) contrast(108%) drop-shadow(2px 2px 1px rgba(13,13,24,.69));
 }
 .gallery p {
 	color: #66ddff;
@@ -215,11 +216,11 @@ hr.dashF {
 	font-size: 14px;
 	text-align: center;
 }
-@media only screen and (min-width : 921px) and (max-width: 1024px) {
+@media only screen and (min-width : 921px) and (max-width: 1224px) {
 	.gallery {
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
 	}
 	.gallery img {
 		max-width: 360px;
@@ -230,19 +231,19 @@ hr.dashF {
 }
 @media only screen and (min-width : 481px) and (max-width: 920px) {
 	.gallery {
-		-webkit-column-count: 1;
-		-moz-column-count: 1;
-		column-count: 1;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
 	}
 	.bodyText {
-		max-width: 85%;
+		max-width: 90%;
 	}
 }
 @media only screen and (min-width : 200px) and (max-width: 480px) {
 	.gallery {
-		-webkit-column-count: 1;
-		-moz-column-count: 1;
-		column-count: 1;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
 	}
 	.bodyText {
 		width: 90%;
@@ -295,13 +296,13 @@ hr.dashF {
 }
 
 .shop img {
-	max-width: 36px;
+	max-width: 24px;
 }
 .shop img:hover {
 	filter: blur(.6px) drop-shadow(2px 2px 2px #aef);
 }
 .neonDragon img {
-	max-width: 242px;
+	max-width: 269px;
 	padding: 2px 6px 13px 6px;
 }
 .neonDragon img:hover {
@@ -328,7 +329,7 @@ footer a:hover {
 }
 .footerSocial img {
 	display: inline;
-	max-width: 28px;
+	max-width: 24px;
 	padding: 2px 2px 6px 2px;
 }
 .footerSocial img:hover {
