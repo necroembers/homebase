@@ -197,6 +197,7 @@ hr.dashF {
 	column-count: 4;
 	column-gap: 6px;
 	display: inline-block;
+	padding: 13px;
 	position: static;
 	width: 90%;
 }
